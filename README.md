@@ -35,7 +35,7 @@ mvn --version
 
 **Actividad:** copia las versiones que obtuviste en tus apuntes o en el reporte de la práctica.
 
-- [ ] Confirmé que Git, `java`, `javac` y Maven están disponibles.
+- [ ✅ ] Confirmé que Git, `java`, `javac` y Maven están disponibles.
 
 Los ejemplos están en `src/`. La carpeta `bin/` se usa solamente para archivos compilados y está excluida por `.gitignore`.
 
@@ -54,8 +54,8 @@ Observa que `javac` genera archivos `.class` en `bin/`, mientras que `java` ejec
 
 **Actividad:** modifica el mensaje de `Saludo.java` o agrega una operación a `Calculadora.java`, vuelve a compilar y ejecuta nuevamente la clase correspondiente.
 
-- [ ] Compilé y ejecuté los dos ejemplos.
-- [ ] Realicé una modificación en un archivo `.java` y comprobé su resultado.
+- [✅ ] Compilé y ejecuté los dos ejemplos.
+- [✅ ] Realicé una modificación en un archivo `.java` y comprobé su resultado.
 
 ## 3. Preparar el repositorio
 
@@ -77,9 +77,9 @@ git diff --cached
 
 **Actividad:** prepara únicamente los cuatro archivos indicados. Antes de continuar, verifica que `git diff --cached` muestre tus cambios y que no incluya archivos `.class`.
 
-- [ ] Revisé el estado inicial con `git status`.
-- [ ] Agregué los archivos fuente y de configuración con `git add`.
-- [ ] Revisé el contenido preparado con `git diff --cached`.
+- [ ✅ ] Revisé el estado inicial con `git status`.
+- [ ✅ ] Agregué los archivos fuente y de configuración con `git add`.
+- [ ✅ ] Revisé el contenido preparado con `git diff --cached`.
 
 ## 4. Crear y corregir commits
 
@@ -89,6 +89,8 @@ Crea el primer commit:
 git commit -m "Agrega ejercicio de Git y Java"
 git log --oneline -1
 ```
+
+Cuarto paso de la práctica
 
 Ahora modifica una línea de `README.md` o de uno de los ejemplos. Revisa la diferencia antes de preparar el cambio:
 
@@ -114,6 +116,8 @@ git log --oneline -1
 - [ ] Incorporé el cambio al commit anterior con `git commit --amend`.
 
 ## 5. Crear una rama y combinarla con `merge`
+
+quinto paso de la práctica
 
 Practica una modificación aislada en una rama:
 
@@ -144,6 +148,8 @@ git commit
 - [ ] Regresé a `main` y combiné la rama con `git merge`.
 
 ## 6. Compartir y recibir cambios
+
+Sexto paso de la práctica 
 
 Revisa el remoto configurado y las ramas disponibles:
 
